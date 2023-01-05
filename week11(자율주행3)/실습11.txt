@@ -1,0 +1,71 @@
+실습 11. Vehicle Control 안내드립니다.
+
+ 
+
+1. test_lateral_control.py 실행을 위한 lateral_control.py 코드 작성
+
+  stanley 함수 내부 작성해주세요.
+
+ 
+
+2. test_longitudinal_control.py 실행을 위한 test_longitudinal_control.py 코드 작성
+
+  PID_step 함수 내부 작성해주세요.
+
+ 
+
+3. longitudinal_control 에서 Parameter Tuning (PPT 25)
+
+   주어진 파라메터 값을 각각 수정하면서 실행시키면 나오는 Graph Plot을 전부 제출 해주시면 됩니다.
+
+   ex) Kp_Plot.jpg, Ki_Plot.jpg ... 
+
+ 
+
+새로운 gym 파일은 공지사항에 올려드렸으니 확인하시고 환경 구축해주시면 감사하겠습니다.
+
+실습 내용 제출은 제공해드린 코드 구성 그대로와 3번의 내용을  압축하시어 제출해주시면 됩니다.
+
+format : 학번_이름_vc.zip
+
+ 
+
+문의가 있으시면 아래 메일로 연락 주시면 감사하겠습니다.
+
+(chowk1109@naver.com)
+
+ 
+
+*추가 안내 사항
+
+이전 4~6주차 실습 때 사용하신 lane_detection.py 파일 혹은 solution 제공된 파일을 폴더 내에 같이 구성해주셔야 합니다. 
+
+waypoint_prediction.py는 첨부해두었습니다.
+
+ 
+
+* 코드 구성
+
+-------
+
+Folder
+
+-- lateral_control.py
+
+-- longitudinal_control.py
+
+-- modular_pipeline.py
+
+-- test_lane_detection.py
+
+-- test_waypoint_prediction.py
+
+-- test_lateral_control.py
+
+-- test_longitudinal_control.py
+
+ 
+
+-- lane_detection.py
+
+-- waypoint_prediction.py
